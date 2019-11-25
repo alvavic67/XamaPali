@@ -11,6 +11,9 @@
 # production
 /build
 
+# Google Key
+/src/config.js
+
 # misc
 .DS_Store
 .env.local

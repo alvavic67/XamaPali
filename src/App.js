@@ -4,18 +4,20 @@ import "./App.css";
 
 import Login from "./pages/login";
 import Report from "./pages/reporte";
+import Main from "./pages/main";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <Login /> */}
-        <Report
+      {/* <header className="App-header"> */}
+      {/* <Login /> */}
+      {/* <Report
           title="Generar reporte"
           description="Esta ventana es para generar un reporte"
           action="Generar"
-        />
-      </header>
+        /> */}
+      <Main />
+      {/* </header> */}
     </div>
   );
 }
