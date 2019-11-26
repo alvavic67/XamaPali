@@ -15,5 +15,6 @@ export default function ContainedButtons(props) {
     <Button variant="contained" color={props.color}>
       {props.value}
     </Button>
+    //dummy
   );
 }
