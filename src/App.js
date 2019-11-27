@@ -5,6 +5,9 @@ import "./App.css";
 import Login from "./pages/login";
 import Report from "./pages/reporte";
 import Main from "./pages/main";
+import DialogProfessor from "./components/DialogoReporte/DialogoReporte";
+
+
 
 function App() {
   return (
@@ -16,7 +19,10 @@ function App() {
           description="Esta ventana es para generar un reporte"
           action="Generar"
         /> */}
-      <Main />
+      {/* <Main /> */}
+      {/* <Login></Login> */}
+
+      <DialogProfessor></DialogProfessor>
       {/* </header> */}
     </div>
   );

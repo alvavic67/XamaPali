@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Map, GoogleApiWrapper, Marker } from "google-maps-react";
-import { config } from "../config";
+import { config } from "../config/config";
 
 class MapContainer extends Component {
   render() {
     const mapStyles = {
-      width: "10%",
-      height: "10%"
+      width: "50%",
+      height: "50%"
     };
     return (
       <Map
